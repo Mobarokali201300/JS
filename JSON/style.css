@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 80px;
+    min-width: 100px;
+}
+.hero-section{
+    background-color: #FFF5F2;
+}
+#logo{
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.highlighter-logo{
+    color:#FF6B01;
+}
+.nav-item1{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+.main-btn{
+   color: #fff;
+   font-weight: 700;
+   outline: none;
+   border-radius: none;
+   border: none;
+   padding: 10px 10px;
+   border-radius: 8px;
+   background-color:#7B4CDF; 
+}
+.main-btn:hover,
+.main-btn:focus{
+    background-color: #946bec;
+}
+.nav-link{
+    color: #020202;  
+}
+.nav-link:hover{
+    color:#FF6B01;
+    transform: scale(1.02);
+    transition: .1s;
+    /* text-decoration: overline; */
+}
